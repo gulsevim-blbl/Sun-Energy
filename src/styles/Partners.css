@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.partners-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh; 
+  box-shadow: 0 58px 152px 0 rgba(0, 107, 184, 0.42);  
+}
+.Text {
+  width: 732px;
+  height: 279px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 0;
+  margin-right: auto;
+  margin-left: 105px; 
+  margin-bottom: 210px;
+  
+}
+
+header {
+  width: 732px;
+  height: 51px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 0;
+}
+.header-content{
+  align-items: flex-start; 
+}
+.our-solution {
+  width: 732px;
+  height: 450px;
+  flex-grow: 0;
+  font-family: Rajdhani;
+  font-size: 32px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #36ba6f;
+}
+
+.Line {
+  width: 56px;
+  height: 3px;
+  background-color: #36ba6f;
+}
+
+.Powering-A-Sustainable-and-Profitable-Energy-Transition-on-Digital-Solutions {
+  width: 732px;
+  height: auto;
+  flex-grow: 0;
+  font-family: Rajdhani;
+  font-size: 50px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  text-align: left;
+  color: #202636;
+}
+.Vector2 {
+  width: 20px;
+  height: 120px;
+  margin: 28px 7px 250px 21px;
+  border-radius: 24px;
+  background-color: rgba(64, 190, 122, 0.7);
+  transform: rotate(10deg);
+}
+.Vector {
+  width: 15px;
+  height: 70px;
+  margin: 80px 112px 300px 10px;
+  border-radius: 24px;
+  transform: rotate(10deg);
+  background-color: rgba(2, 74, 162, 0.4);
+}
+
+.partners-container img {
+  width: 500px;
+  margin-bottom: 10px; 
+  margin-right: 20px;
+  z-index: 1;
+} 
+.GridSolution {
+  width: 450px !important;
+  position: absolute; /* Resmin mutlak konumlandırılmasını sağlar */
+  bottom: 0; /* Sayfanın altına konumlandırır */
+  right: 0; /* Sayfanın sağ tarafına konumlandırır */
+  margin-bottom: 20px !important; /* Alt boşluğu ayarlar */
+  margin-right: 40px !important; /* Sağ boşluğu ayarlar */
+}
+
+.Ic_Thunderbolt{
+  position: absolute; /* Resmin mutlak konumlandırılmasını sağlar */
+  bottom: 0; /* Sayfanın altına konumlandırır */
+  left: 0; /* Sayfanın sağ tarafına konumlandırır */
+  margin-bottom: 230px !important; /* Alt boşluğu ayarlar */
+  margin-left: 850px; /* Sağ boşluğu ayarlar */
+  width: 180px !important; /* Set desired width */
+  height: auto;
+}
+
+.Bg{ 
+  position: absolute;
+  width: 1300px;
+  height: 260px; 
+  margin-top: 410px;
+  right: 230px; 
+  border-radius: 10px 1px 200px 10px;
+  background-image: linear-gradient(149deg, #0052b4 47%, #10c2ea 79%, #0052b4 95%);
+}
+
+.Bg .Decarbonization-requires-balance-between-legacy-systems-and-emerging-technologies-Between-the-envir {
+    position: absolute;
+    width: 390px;
+    height:auto;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left ;
+    color: rgba(255, 255, 255, 0.65); 
+    margin: 50px 259px 72px 90px;
+}
+

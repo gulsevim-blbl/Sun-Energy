@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rajdhani', sans-serif !important;
+    
+}
+/* ***************Navbar******************/
+nav {
+    display: flex;
+    align-items: center;
+    min-height: 90px;
+    column-gap: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); isteğe bağlı gölgelendirme  */
+}
+
+.nav-logo-container {
+    margin-left: 100px; /* Logo'nun sol tarafa olan boşluğunu ayarlayın */
+}
+
+.contact-container {
+    margin-right: 100px; /* İletişim bilgilerinin sağ tarafa olan boşluğunu ayarlayın */
+  
+  }
+
+.navbar-links-container {
+    flex: 1; /* Diğer linkleri ortalamak için esneklik ekleyin */
+    display: flex;
+    justify-content: center;
+    
+}
+
+.navbar-menu-container {
+    display: none;
+}
+
+.navbar-links-container a,
+.contact-container a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.primary-button {
+    padding: 0.9rem 1.75rem;
+    background-color: white;
+    outline: none;
+    border: none;
+    border-radius: 5rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.navbar-cart-icon {
+    font-size: 1.15rem;
+}
+
+.navbar-menu-container img {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.contact-container {
+    display: flex;
+    align-items: center;
+}
+
+.contact-container a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.contact-container img {
+  padding-left: 10px;
+}
+
+@media (max-width: 1000px) {
+    .navbar-links-container a {
+      margin-right: 1rem;
+      font-size: 1rem;
+    }
+    .contact-container{
+        margin-right: 1rem;
+        
+    }
+    .home-bannerImage-container {
+      max-width: 600px;
+    }
+  }
+  @media (max-width: 800px) {
+    .nav-logo-container {
+      max-width: 140px;
+    }
+    .navbar-links-container {
+      display: none;
+    }
+    .navbar-menu-container {
+      display: flex;
+    }
+    .home-bannerImage-container {
+      max-width: 450px;
+    }
+    .home-banner-container,
+    .about-section-container {
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+    }
+    .about-section-container {
+      flex-direction: column;
+    }
+}

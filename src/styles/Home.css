@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .home-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../assets/Image.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 90vh; /* Tüm viewport'u kaplayacak şekilde yükseklik ayarlar */
+    box-shadow: 0 58px 152px 0 rgba(0, 107, 184, 0.42);
+    
+  }
+  
+  .title {
+  width: 848px;
+  height: 500px;
+  margin-top: 5px;
+  margin-left: auto; 
+  margin-right: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.RENEWABLE-ENERGY {
+  width: 397px;
+  height: 56px;
+  font-family: Rajdhani;
+  margin-left: -70px;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.17;
+  text-align: left;
+  color: #ffd84d;
+  /* margin-right: auto; */
+  
+ 
+}
+
+.Digital-in-the-Future-of-Energy {
+  width: 548px;
+  height: 148px;
+  font-family: Rajdhani;
+  margin-left: -69px;
+  font-size: 70px;
+  font-weight: bold;
+  line-height: 1.11;
+  text-align: left;
+  color: #fff;
+  margin-right: auto;
+}
+
+.Heading {
+  width: 420px;
+  height: 500px;
+  margin-top: 5px;
+  margin-right: auto; 
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.Enable-reliable-cost-effective-and-dispatchable-power {
+  height: 112px;
+  font-family: Rajdhani;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 1.4;
+  text-align: left;
+  color: #fff;
+}
+
+.Sun-Energy-has-accumulated-more-than-9-gigawatts-of-total-global-installed-base-and-backlog-for-its {
+  height: 120px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 1.67;
+  text-align: left;
+  color: #eaf9fd;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  /* flex-grow: 0; */
+  display: flex;
+  /* flex-direction: row; */
+  /* justify-content: flex-start; */
+  align-items: center;
+  gap: 16px;
+  opacity: 0.75;
+  border-radius: 35px;
+  /* -webkit-backdrop-filter: blur(70px);
+  backdrop-filter: blur(70px); */
+  box-shadow: 0 82px 235px 0 rgba(0, 48, 121, 0.21);
+  /* border-style: solid; */
+  /* border-width: 2px; */
+  border-image-source: linear-gradient(to bottom, #fff 0%, rgba(255, 255, 255, 0) 100%);
+  /* border-image-slice: 1; */
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), linear-gradient(to bottom, #fff 0%, rgba(255, 255, 255, 0) 100%);
+  /* background-origin: border-box;
+  background-clip: content-box, border-box; */
+}
+
+button:hover {
+  background-color: #005CE7;
+  color: #FFFFFF;
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+button img {
+  margin-left: 5px;
+  width: 30px; 
+  height: 30px; 
+}
+
+ .Card {
+  width: 350px;
+  height: 420px;
+  position: absolute;
+  bottom: 0px;  
+  left: 105px;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 20px 9px #6865641e;
+  border-radius: 15px;
+  padding: 10px;
+  overflow: hidden;
+  opacity: 0.90;
+  box-shadow: 0 80px 232px 0 rgba(0, 48, 121, 0.24);
+  border-style: solid;
+  border-width: 2px;
+  border-image-source: linear-gradient(to bottom, #fff 0%, rgba(255, 255, 255, 0) 100%);
+  border-image-slice: 1;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), linear-gradient(to bottom, #fff 0%, rgba(255, 255, 255, 0) 100%);
+} 
+.Stats {
+  width: 247px;
+  height: 172px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  align-items: center;
+  gap: 12px;
+  padding: 0; 
+}
+
+.M {
+  width: 100%; 
+  height: auto; 
+  margin-top:10px;
+  margin-left: 95px; /* width -height değişince burayı da değiştiriyorum*/
+  font-family: Rajdhani;
+  font-size: 60px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #0052b4; 
+}
+
+.Worldwide-product-sales-per-year {
+  width: 100%; 
+  height: auto; 
+  /* width: 247px;
+  height: 80px; */
+  margin-left: 80px; /* width -height değişince burayı da değiştiriyorum*/
+  flex-grow: 0;
+  font-family: Rajdhani;
+  font-size: 28px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: #202636; 
+}
+
+.Card .Image img {
+  width: 100%; 
+  height: auto; 
+  cursor: pointer;
+}
+
+.Container {
+  position: absolute;
+  bottom: 17%; 
+  left: 52%; /* Sayfanın solundan genişliğin yarısı kadar içeride */
+  transform: translate(-50%, 50%); /* Resmi ortalamak için */
+  z-index: 100; /* Gerekirse diğer elementlerin üstünde olması için */
+}
+
+.Container .Image img {
+  max-width: 100%; 
+  max-height: 100%; 
+}
+
+
+
+.Container .Image span {
+  width: 400px;
+  height: 80px;
+  position: absolute;
+  bottom: 20px; /* veya istediğiniz değer */
+  left: 8%; /* veya istediğiniz değer */
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px; /* veya istediğiniz font büyüklüğü */
+}
