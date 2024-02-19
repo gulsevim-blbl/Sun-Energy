@@ -33,22 +33,19 @@
   width: 397px;
   height: 56px;
   font-family: Rajdhani;
-  margin-left: -70px;
+  margin-left: 10px;
   font-size: 25px;
   font-weight: 500;
   line-height: 1.17;
   text-align: left;
   color: #ffd84d;
-  /* margin-right: auto; */
-  
- 
 }
 
 .Digital-in-the-Future-of-Energy {
   width: 548px;
   height: 148px;
   font-family: Rajdhani;
-  margin-left: -69px;
+  margin-left: 10px;
   font-size: 70px;
   font-weight: bold;
   line-height: 1.11;
@@ -91,24 +88,15 @@
 button {
   width: 150px;
   height: 50px;
-  /* flex-grow: 0; */
   display: flex;
-  /* flex-direction: row; */
-  /* justify-content: flex-start; */
   align-items: center;
   gap: 16px;
   opacity: 0.75;
   border-radius: 35px;
-  /* -webkit-backdrop-filter: blur(70px);
-  backdrop-filter: blur(70px); */
+  font-size: 18px;
   box-shadow: 0 82px 235px 0 rgba(0, 48, 121, 0.21);
-  /* border-style: solid; */
-  /* border-width: 2px; */
   border-image-source: linear-gradient(to bottom, #fff 0%, rgba(255, 255, 255, 0) 100%);
-  /* border-image-slice: 1; */
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), linear-gradient(to bottom, #fff 0%, rgba(255, 255, 255, 0) 100%);
-  /* background-origin: border-box;
-  background-clip: content-box, border-box; */
 }
 
 button:hover {
@@ -123,7 +111,8 @@ button:active {
 }
 
 button img {
-  margin-left: 5px;
+  margin-right: 10px;
+  margin-left: -25px;
   width: 30px; 
   height: 30px; 
 }
@@ -153,7 +142,6 @@ button img {
   flex-grow: 0;
   display: flex;
   flex-direction: column;
-  /* justify-content: flex-start; */
   align-items: center;
   gap: 12px;
   padding: 0; 
@@ -163,7 +151,7 @@ button img {
   width: 100%; 
   height: auto; 
   margin-top:10px;
-  margin-left: 95px; /* width -height değişince burayı da değiştiriyorum*/
+  margin-left: 95px; 
   font-family: Rajdhani;
   font-size: 60px;
   font-weight: 600;
@@ -178,9 +166,7 @@ button img {
 .Worldwide-product-sales-per-year {
   width: 100%; 
   height: auto; 
-  /* width: 247px;
-  height: 80px; */
-  margin-left: 80px; /* width -height değişince burayı da değiştiriyorum*/
+  margin-left: 80px; 
   flex-grow: 0;
   font-family: Rajdhani;
   font-size: 28px;
@@ -201,8 +187,8 @@ button img {
 
 .Container {
   position: absolute;
-  bottom: 17%; 
-  left: 52%; /* Sayfanın solundan genişliğin yarısı kadar içeride */
+  bottom: 16%; 
+  left: 54%; /* Sayfanın solundan genişliğin yarısı kadar içeride */
   transform: translate(-50%, 50%); /* Resmi ortalamak için */
   z-index: 100; /* Gerekirse diğer elementlerin üstünde olması için */
 }
@@ -218,8 +204,8 @@ button img {
   width: 400px;
   height: 80px;
   position: absolute;
-  bottom: 20px; /* veya istediğiniz değer */
-  left: 8%; /* veya istediğiniz değer */
+  bottom: 20px;
+  left: 8%; 
   color: rgba(255, 255, 255, 0.8);
-  font-size: 18px; /* veya istediğiniz font büyüklüğü */
+  font-size: 18px; 
 }

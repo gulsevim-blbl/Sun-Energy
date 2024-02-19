@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+  
+  .support-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh; 
+    overflow: hidden; 
+    box-shadow: 0 58px 152px 0 rgba(0, 107, 184, 0.42);  
+  }
+  
+  .SupportImage img {
+    max-width: 100%; 
+    height: auto;
+    display: block; 
+  }
+  
+  .SupportImage {
+    max-width: 90%; 
+    margin-top: 200px; 
+  }
+  
+  .Cardtwo {
+    position: absolute;
+    width: 650px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+    padding: 56px;
+    border-radius: 24px;
+    -webkit-backdrop-filter: blur(72px);
+    backdrop-filter: blur(72px);
+    background: rgba(0, 19, 55, 0.6);
+    box-shadow: 0 #6865641e;
+    margin-bottom: 30px;
+    margin-right: 400px;
+    overflow: hidden;
+    z-index: 1; 
+  }
+
+  .Partnering-to-drive-digitization-of-the-power-sector {
+    height: 136px;
+    align-self: stretch;
+    flex-grow: 0;
+    font-family: Rajdhani;
+    font-size: 40px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+  }
+
+  .In-partnership-with-some-of-the-worlds-largest-utilities-and-energy-producers-were-helping-to-dri {
+    height: 120px;
+    align-self: stretch;
+    flex-grow: 0;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.20;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
+  
+  button {
+    width: 165px;
+    min-height: 45px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 12px 12px 32px;
+    border-radius: 40px;
+    background-color: #fff;
+    
+  }
+
+  .Learn-More-Support{
+    width: 115px;
+    height: 32px;
+    flex-grow: 0;
+    font-family: Rajdhani;
+    font-size: 15px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.30; 
+    letter-spacing: 0.30px; 
+    text-align: left;
+    color: #14171f;
+    margin-top:16px;
+  } 
+  .Cardtwo img{
+    width: 30px;
+    height: 30px;
+  }
+ 

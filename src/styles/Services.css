@@ -37,14 +37,14 @@
   }
 
 .services-image1 img{
-    width: 390px;
+    width: 385px;
     height: auto;
 }
 
 .services-image1{
    position: absolute;
-   top:210px;
-   left:100px;
+   top:155px;
+   left:70px;
 }
 
 .services-image2 img{
@@ -54,7 +54,7 @@
 
 .services-image2{
  position: absolute;
- top: 400px;
+ top: 360px;
  margin-right: 185px;
 }
 
@@ -113,7 +113,6 @@
   text-align: left;
   color: #0052b4;
   text-decoration: none;
-  /* margin-left: 50px; */
 }
 
 .Learn-More a >img {
@@ -124,7 +123,7 @@
 
 .text .Description {
   width: 620px !important;
-  height: 500px;
+  height: 370px;
   display: flex;
   flex-direction: column;
   justify-content: center;

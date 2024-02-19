@@ -95,37 +95,39 @@ header {
   background-color: rgba(2, 74, 162, 0.4);
 }
 
+
 .partners-container img {
-  width: 500px;
+  width: 400px;
   margin-bottom: 10px; 
   margin-right: 20px;
   z-index: 1;
+  
 } 
 .GridSolution {
-  width: 450px !important;
-  position: absolute; /* Resmin mutlak konumlandırılmasını sağlar */
-  bottom: 0; /* Sayfanın altına konumlandırır */
-  right: 0; /* Sayfanın sağ tarafına konumlandırır */
-  margin-bottom: 20px !important; /* Alt boşluğu ayarlar */
-  margin-right: 40px !important; /* Sağ boşluğu ayarlar */
+  width: 400px !important;
+  position: absolute; 
+  bottom: 0; 
+  right: 0; 
+  margin-bottom: 20px !important; 
+  margin-right: 40px !important; 
 }
 
 .Ic_Thunderbolt{
-  position: absolute; /* Resmin mutlak konumlandırılmasını sağlar */
-  bottom: 0; /* Sayfanın altına konumlandırır */
-  left: 0; /* Sayfanın sağ tarafına konumlandırır */
-  margin-bottom: 230px !important; /* Alt boşluğu ayarlar */
-  margin-left: 850px; /* Sağ boşluğu ayarlar */
-  width: 180px !important; /* Set desired width */
+  position: absolute; 
+  bottom: 0; 
+  left: 0;
+  margin-bottom: 200px !important;
+  margin-left: 800px; 
+  width: 180px !important; 
   height: auto;
 }
 
 .Bg{ 
   position: absolute;
-  width: 1300px;
+  width: 1200px;
   height: 260px; 
   margin-top: 410px;
-  right: 230px; 
+  right: 200px; 
   border-radius: 10px 1px 200px 10px;
   background-image: linear-gradient(149deg, #0052b4 47%, #10c2ea 79%, #0052b4 95%);
 }

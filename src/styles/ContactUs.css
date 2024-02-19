@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contact-us-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: 100vh; 
+    overflow: hidden;
+    box-shadow: 0 58px 152px 0 rgba(0, 107, 184, 0.42);  
+}
+
+.contact-us-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 700px;
+    height: auto;
+    margin-top: 120px;
+    margin-left: 250px;
+    border-radius: 24px;
+    z-index: 0;
+}
+
+.contact-us-container .contactusinfo{
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    gap: 48px;
+    margin-left: 250px;
+    margin-top:450px;
+}
+
+.contact-us-container .contactusform {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 4px;
+    border-radius: 24px;
+    -webkit-backdrop-filter: blur(66px);
+    backdrop-filter: blur(66px);
+    box-shadow: 25px 26px 100px 0 rgba(41, 95, 131, 0.08);
+    border-style: solid;
+    border-width: 2px;
+    border-image-source: linear-gradient(to bottom, #fff 0%, rgba(255, 255, 255, 0) 100%);
+    border-image-slice: 1;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.6)), linear-gradient(to bottom, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.6) 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box; 
+    margin-left: 600px;
+    margin-top: 180px;
+}
+
+.ContentTextForm{
+    width: 809px;
+    height: 608px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 0;
+}
+
+.HeadingContent{
+  width: 809px;
+  height: 164px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 0;
+}
+
+.HeadingContent .Contact-us{
+  width: 244px;
+  height: 68px;
+  flex-grow: 0;
+  font-family: Rajdhani;
+  font-size: 40px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  text-align: left;
+  color: #202636;
+ margin-left: 50px;
+}
+
+.HeadingContent .The-Big-Oxmox-advised-her-not-to-do-so-because-there-were-thousands-of-bad-Commas-wild-Question-Ma{
+  width: 450px;
+  height: 80px ;
+  flex-grow: 0;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #737b8f;
+  margin-bottom: 260px;
+  margin-left: 20px;
+  margin-top: -10px;
+}
+
+.wrapper {
+    height: 50px;
+    align-self: stretch;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 0;
+  }
+
+  .Inputs {
+    width: 200px;
+    height: 50px;
+    align-self: stretch;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 24px;
+    padding: 0;
+    box-shadow: 0 4px 100px 0 rgba(7, 86, 199, 0.08);
+    margin-top: -120px;
+    margin-left: 15px;
+  }
+
+  .Input-box-name {
+    height: 50px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 4px;
+    padding: 18px 30px;
+    border-radius: 5px;
+    background-color:  rgba(236, 236, 244, 0.8);
+  }
+
+  .Input-box-name .Your-name{
+    margin-top: -5px;
+    margin-left: 25px;
+    color: #737b8f;
+  }
+
+  .Input-box-email{
+    width: 200px;
+    height: 50px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 4px;
+    padding: 18px 30px;
+    border-radius: 5px;
+    background-color:  rgba(236, 236, 244, 0.8);
+    margin-left: 250px;
+    margin-top: -75px;
+  }
+
+  .Input-box-email .Your-Email-Address{
+        margin-top: -5px;
+        margin-left: 10px;
+        color: #737b8f;
+  }
+
+  .Input_box {
+    position: absolute;
+    width: 450px;
+    height: 140px;
+    align-self: stretch;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 4px;
+    padding: 25px 32px;
+    border-radius: 8px;
+    background-color: rgba(236, 236, 244, 0.8);
+    margin-top: 70px
+  }
+
+  .Input_box .Question {
+    width: 96px;
+    height: 40px;
+    flex-grow: 0;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #737b8f;
+  }
+
+  .wrapper .contactButton{
+    width: 200px;
+    height: 50px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    padding: 12px 12px 12px 32px;
+    border-radius: 40px;
+    background: #0052b4;
+    margin-top: 100px;
+    margin-left: -220px;
+  }
+
+  .wrapper .contactButton .Send-Question{
+    width: 149px;
+    height: 32px;
+    flex-grow: 0;
+    font-family: Rajdhani;
+    font-size: 13px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: 0.48px;
+    text-align: left;
+    color: #fff;
+    margin-top: 15px;
+    margin-right: 10px;
+        
+  }
+
+  .wrapper .contactButton .arrow {
+    width: 35px;
+    height: 30px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 4px;
+    padding: 8px;
+    border-radius: 40px;
+    background-color: #fff;
+  }
+
+  .wrapper .contactButton .arrow .arrow-right {
+    width: 14px;
+    height: 2px;
+    margin: 3px 0;
+    background-color: #0052b4;
+  }

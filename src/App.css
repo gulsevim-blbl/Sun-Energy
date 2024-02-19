@@ -8,6 +8,8 @@
     font-family: 'Rajdhani', sans-serif !important;
     
 }
+
+
 /* ***************Navbar******************/
 nav {
     display: flex;
@@ -23,16 +25,16 @@ nav {
 }
 
 .nav-logo-container {
-    margin-left: 100px; /* Logo'nun sol tarafa olan boşluğunu ayarlayın */
+    margin-left: 100px; 
 }
 
 .contact-container {
-    margin-right: 100px; /* İletişim bilgilerinin sağ tarafa olan boşluğunu ayarlayın */
+    margin-right: 100px; 
   
   }
 
 .navbar-links-container {
-    flex: 1; /* Diğer linkleri ortalamak için esneklik ekleyin */
+    flex: 1; 
     display: flex;
     justify-content: center;
     

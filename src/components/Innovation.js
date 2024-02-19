@@ -25,8 +25,8 @@ const Innovation = () => {
             </span>
           </div>
         </div>
-        <div class="Line-2"></div>
-        <span class="Read-Digitals-new-white-paper-on-sustainability-and-profitability-and-understand-how-you-can-unlock">
+        <div className="Line-2"></div>
+        <span className="Read-Digitals-new-white-paper-on-sustainability-and-profitability-and-understand-how-you-can-unlock">
           Read Digital's new white paper on sustainability and profitability and
           understand how you can unlock balanced energy and business models
           while better managing asset risk and carbon emissions.
