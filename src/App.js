@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Home from "./components/Home";
@@ -10,16 +10,69 @@ import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
 
 function App() {
+  const [currentPage, setCurrentPage] = useState("home");
+
   return (
-    <div className="App">
-      <Home />
-      <Services />
-      <Partners />
-      <Innovation />
-      <Support />
-      <ContactUs />
-      <Footer />
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <Home setCurrentPage={setCurrentPage} />
+                <Services />
+                <Partners />
+                <Innovation />
+                <Support />
+                <ContactUs />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/services"
+            element={
+              <>
+                <Services />
+              </>
+            }
+          />
+          <Route
+            path="/partners"
+            element={
+              <>
+                <Partners />
+              </>
+            }
+          />
+          <Route
+            path="/innovation"
+            element={
+              <>
+                <Innovation />
+              </>
+            }
+          />
+          <Route
+            path="/support"
+            element={
+              <>
+                <Support />
+              </>
+            }
+          />
+          <Route
+            path="/contact-us"
+            element={
+              <>
+                <ContactUs />
+              </>
+            }
+          />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
