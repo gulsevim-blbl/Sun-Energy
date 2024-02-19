@@ -1,3 +1,8 @@
+<h1 align="center"> Sun Energy Landing Page </h1>
+
+# NavBar #
+
+![Navbar](https://github.com/gulsevim-blbl/SunEnergy/assets/73358343/e3eaec0d-0e7f-4442-944c-673c08c3d150)
 
 # Page1 #
 
@@ -25,6 +30,6 @@
 
 # Footer #
 
-![footer](https://github.com/gulsevim-blbl/SunEnergy/assets/73358343/a9c1cbac-87ab-4e8f-8ecc-1bc6ae27e924)
+![footer](https://github.com/gulsevim-blbl/SunEnergy/assets/73358343/99f531d2-d550-4ed1-90f5-11f49750f804)
 
 
