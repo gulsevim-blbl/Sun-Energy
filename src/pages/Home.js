@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./Navbar";
+import Navbar from "../components/Navbar";
 import "../styles/Home.css";
 import Ic_Globe from "../assets/Ic_Globe.png";
 import Video from "../assets/Video.png";

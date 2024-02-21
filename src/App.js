@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-import Home from "./components/Home";
-import Services from "./components/Services";
-import Partners from "./components/Partners";
-import Innovation from "./components/Innovation";
-import Support from "./components/Support";
-import ContactUs from "./components/ContactUs";
+import Home from "./pages/Home";
+import Services from "./pages/Services";
+import Partners from "./pages/Partners";
+import Innovation from "./pages/Innovation";
+import Support from "./pages/Support";
+import ContactUs from "./pages/ContactUs";
 import Footer from "./components/Footer";
 
 function App() {
